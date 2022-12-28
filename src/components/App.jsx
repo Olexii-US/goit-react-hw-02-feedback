@@ -13,9 +13,6 @@ export class App extends Component {
     bad: 0,
   };
 
-  // onNeutralBtnClick = () => {
-  //   this.setState(prevState => ({ neutral: prevState.neutral + 1 }));
-
   onBtnClick = option => {
     this.setState(prevState => ({ [option]: prevState[option] + 1 }));
   };
